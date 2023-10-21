@@ -1,1 +1,9 @@
-"new pip" 
+name: CI/CD Pipeline2
+
+on: push
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World step
+        run: echo "Hello World!"
